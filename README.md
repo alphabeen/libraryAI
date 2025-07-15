@@ -18,33 +18,21 @@
 ### 1. 환경 세팅
 
 ```bash
-git clone https://github.com/yourusername/libraryAI.git
+git clone https://github.com/alphabeen/libraryAI.git
 cd libraryAI
 pip install -r requirements.txt
 
 
 2. .env 파일 생성
-ini
-복사
-편집
-# .env
 API_KEY=발급받은_API_키
 LIB_CODE=도서관_코드
 .env는 Git에 업로드되지 않도록 .gitignore로 제외되어 있어야 합니다.
 
 3. 실행
-bash
-복사
-편집
 python data_fetcher.py
 실행 시, loan_books.csv 파일이 생성됩니다.
 
-
-
 📁 프로젝트 구조
-bash
-복사
-편집
 libraryAI/
 ├── data_fetcher.py        # 데이터 수집 및 전처리 로직
 ├── loan_books.csv         # 수집된 데이터 CSV 파일 (실행 후 생성됨)
