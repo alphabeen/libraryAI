@@ -27,4 +27,7 @@ IDF (Inverse Document Frequency): 여러 문서에 흔하지 않을수록 중요
 4. TextRank 점수 계산 -> 간선의 가중치를 기반으로 PageRank 방식으로 점수 계산, 공동 등장 빈도가 많고 중심에 가까운 단어에 높은 점수를 줌
 5. TF-IDF × TextRank 결합 -> 교집합 단어에 대해서만 결합 점수 계산, TF-IDF 점수 × TextRank 점수
 
+
+
+
 ![alt text](image.png)
