@@ -44,7 +44,6 @@ LIB_CODE=도서관_코드
 3. 실행
 python data_fetcher.py
 실행 시, loan_books.csv 파일이 생성됩니다.
-```
 
 📁 프로젝트 구조
 libraryAI/
@@ -58,6 +57,7 @@ libraryAI/
 ├── streamlitapp.py         # (예정) UI 로직
 ├── requirements.txt
 └── README.md          # 프로젝트 설명 파일
+```
 
 📌 향후 계획
 Streamlit을 이용한 시각화 및 추천 기능 추가
