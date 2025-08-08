@@ -9,7 +9,7 @@ def preprocess_csv(input_path="loan_books.csv", output_path="cleaned_books.csv")
     # 2. KDC 앞 세 자리만 추출
     df["KDC"] = df["KDC"].astype(str).str.extract(r"(\d{3})")
 
-    # 3. 문자열 정제 (공백 제거)
+    # 3. 문자열 정제 (공백 제거)    
     for col in ["제목", "저자", "출판사"]:
         df[col] = df[col].astype(str).str.strip()
 
